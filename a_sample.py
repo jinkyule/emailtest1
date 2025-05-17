@@ -1,1 +1,14 @@
-{"nbformat":4,"nbformat_minor":0,"metadata":{"colab":{"provenance":[],"authorship_tag":"ABX9TyOz5yKwprynsYKdS7vqgr0a"},"kernelspec":{"name":"python3","display_name":"Python 3"},"language_info":{"name":"python"}},"cells":[{"cell_type":"code","execution_count":null,"metadata":{"id":"cxioMU6rSEQt"},"outputs":[],"source":["import streamlit as st\n","\n","st.title(\"📧 Site A - 이메일 게시판 (그대로 노출)\")\n","\n","st.write(\"이곳은 이메일을 보호하지 않고 그대로 노출합니다.\")\n","\n","emails = [\n","    \"test@example.com\",\n","    \"hello@company.com\",\n","    \"user123@domain.net\"\n","]\n","\n","for email in emails:\n","    st.write(email)\n"]}]}
+import streamlit as st
+
+st.title("📧 Site A - 이메일 게시판 (그대로 노출)")
+
+st.write("이곳은 이메일을 보호하지 않고 그대로 노출합니다.")
+
+emails = [
+    "test@example.com",
+    "hello@company.com",
+    "user123@domain.net"
+]
+
+for email in emails:
+    st.write(email)
